@@ -1,11 +1,11 @@
 import React from "react";
 import Navigation from "./components/Navigation";
-import { useIntersectionObsever } from "./hooks/useIntersectionObserver";
 import { useScrollToTop } from "./hooks/useScrollToTop"
+import { useIntersectionObserver } from "./hooks/useIntersectionObserver";
 
 
 const App = () => {
-    const hasAnimated = useIntersectionObsever();
+    const hasAnimated = useIntersectionObserver();
     const showScrollTop = useScrollToTop();
 
     return (
