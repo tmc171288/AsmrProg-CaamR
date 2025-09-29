@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation";
 import { useScrollToTop } from "./hooks/useScrollToTop"
 import { useIntersectionObserver } from "./hooks/useIntersectionObserver";
 import Hero from "./components/Hero";
+import About from "./components/About";
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
         <div className="min-h-screen bg-white text-black">
             <Navigation />
             <Hero hasAnimated={hasAnimated} />
+            <About hasAnimated={hasAnimated} />
         </div>
     );
 };
