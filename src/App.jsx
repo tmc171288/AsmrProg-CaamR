@@ -2,6 +2,7 @@ import React from "react";
 import Navigation from "./components/Navigation";
 import { useScrollToTop } from "./hooks/useScrollToTop"
 import { useIntersectionObserver } from "./hooks/useIntersectionObserver";
+import Hero from "./components/Hero";
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
     return (
         <div className="min-h-screen bg-white text-black">
             <Navigation />
+            <Hero hasAnimated={hasAnimated} />
         </div>
     );
 };

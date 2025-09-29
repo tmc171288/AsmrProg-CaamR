@@ -1,6 +1,6 @@
 export const heroData = {
-    greeting: " Hello, I'm",
-    name: "AsmrProg",
+    greeting: "🖐 Hello, I'm",
+    name: "CaamR-Ming",
     roles: [
         "Frontend Developer",
         "Ui/ux Designer",
