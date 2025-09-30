@@ -38,9 +38,9 @@ const About = ({ hasAnimated }) => {
                                 My journey started with a curiosity for how websites work, and it has evolved into a love for crafting pixel-perfect interfaces that users enjoy interacting with.
                             </p>
                             <div className="flex space-x-4">
-                                <Github className="w-6 h-6 text-gray-600 hover:text-black cursor-pointer transition-colors" />
-                                <Linkedin className="w-6 h-6 text-gray-600 hover:text-black cursor-pointer transition-colors" />
-                                <Mail className="w-6 h-6 text-gray-600 hover:text-black cursor-pointer transition-colors" />
+                                <Github className="w-6 h-6 text-gray-600 hover:text-gray-700 cursor-pointer transition-colors" />
+                                <Linkedin className="w-6 h-6 text-gray-600 hover:text-blue-600 cursor-pointer transition-colors" />
+                                <Mail className="w-6 h-6 text-gray-600 hover:text-red-600 cursor-pointer transition-colors" />
                             </div>
 
                         </div>
